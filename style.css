@@ -1,0 +1,33 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.tilt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: lightslategrey;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.tilt h1 {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  -webkit-transform: translateZ(20px);
+          transform: translateZ(20px);
+}
+/*# sourceMappingURL=style.css.map */
