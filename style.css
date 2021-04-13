@@ -3,31 +3,31 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
+  background-color: #110e17;
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
 
-.tilt {
+figure,
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.tiltWrap {
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
-  width: 200px;
-  height: 200px;
-  background-color: lightslategrey;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
+  width: 320px;
+  height: 180px;
+  background-color: #f2f2f2;
 }
 
-.tilt h1 {
-  margin: auto;
-  width: 100px;
-  height: 100px;
-  background-color: lightcoral;
-  color: white;
-  line-height: 100px;
-  text-align: center;
-  -webkit-transform: translateZ(20px);
-          transform: translateZ(20px);
+.tiltWrap figure {
+  -webkit-transform: translateZ(50px);
+          transform: translateZ(50px);
 }
 /*# sourceMappingURL=style.css.map */

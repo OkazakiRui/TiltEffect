@@ -1,26 +1,26 @@
 body {
   display: flex;
   height: 100vh;
+  background-color: #110e17;
   perspective: 1000px;
 }
+figure,
+img {
+  width: 100%;
+  height: 100%;
+}
 
-.tilt {
-  display: flex;
+.tiltWrap {
   margin: auto;
-  width: 200px;
-  height: 200px;
-  background-color: lightslategrey;
 
+  display: flex;
   transform-style: preserve-3d;
 
-  h1 {
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    background-color: lightcoral;
-    color: white;
-    line-height: 100px;
-    text-align: center;
-    transform: translateZ(20px);
+  width: 320px;
+  height: 180px;
+  background-color: #f2f2f2;
+
+  figure {
+    transform: translateZ(50px);
   }
 }
